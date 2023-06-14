@@ -28,7 +28,10 @@ class StudentList{
     public:
         // add function readfile or writefile
         // add function add student
-        void delete_student_by_name();
+        void DeleteName(std::string name_to_delete);
+        void DeleteCode(std::string code_to_delete);
+        std::string SearchName(std::string name_to_search);
+        std::string SearchCode(std::string code_to_search);
 };
 
 #endif
