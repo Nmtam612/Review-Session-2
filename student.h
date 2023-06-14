@@ -28,6 +28,7 @@ class StudentList{
     public:
         // add function readfile or writefile
         // add function add student
+        void delete_student_by_name();
 };
 
 #endif
