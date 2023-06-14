@@ -12,7 +12,7 @@ void Student::SetStudentCode(std::string student_code_)
 
 void Student::SetStudentScore(float student_score_)
 {
-    this->student_score_=student_code_;
+    this->student_score_=student_score_;
 }
 
 void Student::SetOneStudent(std::string student_name_, std::string student_code_, float student_score_)
